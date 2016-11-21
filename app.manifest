@@ -1,0 +1,29 @@
+{
+    "id"          : "sdk.user.tlc-search",
+    "name"        : "tlc-search",
+    "css"         : [ "appStylesheet.css" ],
+    "template"    : "appLayout.html",
+    "view"        : "appView.js",
+    "controller"  : "appController.js",
+    "permissions" : [ ],
+    "categoryId"  : "8",
+    "date"        : "2016-11-18",
+    "version"     : "1.0.0",
+    "screens":     [
+    {
+        "id":       "tlc-search",
+        "chambers": [
+            {
+              "id":      "myChamber",
+              "js":      "myChamber.js",
+              "autorun": true,
+              "focus":   true,
+              "search":  {
+                "display":     true,
+                "placeholder": "Search app data"
+              }
+            }
+          ]
+        }
+      ]
+}
